@@ -1,0 +1,138 @@
+.grid-item {
+    padding: 10px;
+    grid-area: auto;
+    text-align: center;
+    font-family: serif, sans-serif;
+    border-radius: 0 px;
+    border-color:#bcbcbc;
+    height: 40px; 
+    width:100%; 
+    color:black;
+    font-weight: 500;
+}
+
+.client-settings{
+.grid-header {
+    background-color: rgb(122, 117, 117) !important ;
+    font-family: serif,sans-serif ;
+    font-weight: bold;
+    color: #434343;
+    text-align: center;
+    padding-top: 10px;
+    background-image: linear-gradient(to bottom,#eee 0%,#eee 100%);
+    border-color: 2px solid #bcbcbc;
+    }  
+    .grid-header:first-child{
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }   
+}
+
+.client-settings {
+       width: 1900px !important;
+       padding: 40px;
+    .header {
+        .grid-item:first-child {
+            height:44px;
+            i.header::before {
+                background: -webkit-linear-gradient(left, #808080 50%, green 50%);
+                -webkit-text-fill-color: transparent;
+                -webkit-background-clip: text;
+                background-clip: text;
+                height: 50px;
+            }
+            i.green::before {
+                background: green;
+                -webkit-text-fill-color: transparent;
+                -webkit-background-clip: text;
+                background-clip: text;
+                height: 50px;
+            }
+            i.gray::before {
+                background: gray;
+                -webkit-text-fill-color: transparent;
+                -webkit-background-clip: text;
+                background-clip: text;
+                height: 50px;
+            }
+        }
+    }
+    .grid-item {
+        i {
+            margin-top: -14px;
+        }
+        
+    }
+}
+
+  .border-between > [class*='col-']:before {
+    background: #e3e3e3;
+    bottom: 0;
+    content: " ";
+    left: 0;
+    position: absolute;
+    width: 1px;
+    top: 0;
+ }
+ 
+ .border-between > [class*='col-']:first-child:before {
+    display: none;
+ }
+
+.sort{
+    cursor: pointer;
+}
+
+.div {
+    background: white;
+    text-align: center;
+   
+}
+
+.textarea {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 100px;
+    max-width: 400px;
+}
+
+.search {
+    position: fixed;
+    padding-left: 35px !important;
+    float: right;
+}
+
+.i {
+    margin-right: 10px;
+   
+}
+
+.fa-expand {
+        float: right;
+        padding-top: 4 px;
+        cursor:pointer;
+        font-size: 2em !important;
+        color: #003b49 !important;
+}
+
+.notification-popover {
+    padding: 10px 15px;
+    color: #000;
+    cursor: pointer;
+    
+}
+
+.position{
+height: 40px;
+width: 153px;
+padding: 0px !important;
+color:#003b49;
+}
+
+.container{
+      min-width: 1920px !important;
+}
